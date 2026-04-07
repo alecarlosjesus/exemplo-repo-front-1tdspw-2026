@@ -16,6 +16,12 @@ body{
     /* text-decoration: none; */
 }
 
+h1.nav-link{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
 a.nav-link{
     text-decoration: none;
 }
@@ -27,7 +33,6 @@ a.nav-link{
 }
 
 #menu{
-
     background-color: crimson;
     border-radius: 5px;
     list-style: none;
