@@ -11,11 +11,12 @@ body{
 }
 
 .nav-link{
-    color: darkgrey;
+    color: aqua;
     font-size: 16px;
     display: block;
     text-align: center;
     padding: 14px 16px;
+    margin: 20px 0;
 
 }
 
@@ -26,6 +27,7 @@ a.nav-link{
 #active-link{
     color: red;
     background-color: darkgrey;
+    border-radius: 5px;
 }
 
 #menu{
