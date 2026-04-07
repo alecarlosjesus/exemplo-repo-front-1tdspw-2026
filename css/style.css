@@ -32,11 +32,22 @@ a.nav-link{
     border-radius: 5px;
 }
 
+.cabecalho{
+    margin-bottom: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
 #menu{
-    background-color: crimson;
-    border-radius: 5px;
-    list-style: none;
-    padding: 20px;
+    display: inline-block;
+    background-color: darkslategray;
+    border-style: solid;
+    border-color: rgb(25, 40, 40);
+    border-radius: 50px;
+    list-style:none;
+    padding: 20px 0px;
 }
 
 #menu li{
