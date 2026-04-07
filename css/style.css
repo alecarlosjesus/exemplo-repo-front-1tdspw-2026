@@ -25,6 +25,10 @@ a.nav-link{
     text-decoration: none;
 }
 
+a.nav-link:hover {
+  background-color: #ffffff;
+}
+
 #active-link{
     color: red;
     background-color: darkgrey;
