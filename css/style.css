@@ -29,19 +29,16 @@ a.nav-link{
 
 #menu{
 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+     list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
 
 #menu li{
-    display: inline-block;
-    margin: 0 20px;
-    background-color: rgb(68, 168, 85);
-    padding: 10px;
+     float: left;
 }
 
 
