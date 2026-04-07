@@ -5,13 +5,13 @@ body{
     color:#d1d1c1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     line-height: 1.2;
-    margin: 0;
-    padding: 20px;
+    margin: 20;
+    padding: 0;
 
 }
 
 .nav-link{
-    color: aqua;
+    color: aquamarine;
     font-size: 16px;
     /* text-decoration: none; */
 }
@@ -23,15 +23,18 @@ a.nav-link{
 #active-link{
     color: red;
     background-color: darkgrey;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 #menu{
-
-    background-color: crimson;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
     border-radius: 5px;
     list-style: none;
-    padding: 20px;
+    padding: 14px 16px;
 }
 
 #menu li{
@@ -39,7 +42,10 @@ a.nav-link{
     margin: 0 20px;
 }
 
-
+#menu li a{
+    display: inline-block;
+    background-color: gray;
+}
 
 
 /*
@@ -49,4 +55,5 @@ main{
     max-width: 1000px;
     margin: 0 auto;
 }
+
 
