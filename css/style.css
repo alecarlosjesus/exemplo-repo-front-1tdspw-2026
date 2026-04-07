@@ -42,6 +42,7 @@ a.nav-link:hover {
     padding: 0;
     overflow: hidden;
     background-color: #f7ba75;
+    border-radius: 10px;
 }
 
 #menu li{
