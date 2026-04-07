@@ -11,9 +11,8 @@ body{
 }
 
 .nav-link{
-    color: aqua;
-    font-size: 16px;
-    /* text-decoration: none; */
+    color: lightpink;
+    font-size: 20px;
 }
 
 a.nav-link{
@@ -21,8 +20,8 @@ a.nav-link{
 }
 
 #active-link{
-    color: red;
-    background-color: darkgrey;
+    font-weight: 700;
+    background-color: lightpink;
     border-radius: 5px;
 }
 
@@ -45,9 +44,6 @@ a.nav-link{
     padding: 14px 16px;
     text-decoration: none;
 }
-
-
-
 
 
 /*
