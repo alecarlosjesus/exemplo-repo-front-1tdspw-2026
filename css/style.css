@@ -2,16 +2,17 @@
 
 body{
     background-color: #333;
-    color:#d1d1c1;
+    color: #d1d1c1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     line-height: 1.2;
     margin: 0;
     padding: 0px;
+    overflow: hidden;
 
 }
 
 .nav-link{
-    color: aqua;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     /* text-decoration: none; */
 }
@@ -21,14 +22,14 @@ a.nav-link{
 }
 
 #active-link{
-    color: red;
-    background-color: darkgrey;
-    border-radius: 5px;
+    color: #333);
+    background-color: ;
+    border-radius: 0%;
 }
 
 #menu{
 
-    background-color: crimson;
+    background-color: rgb(68, 62, 63);
     border-radius: 5px;
     list-style: none;
     padding: 20px;
@@ -37,6 +38,8 @@ a.nav-link{
 #menu li{
     display: inline-block;
     margin: 0 20px;
+    background-color: rgb(68, 168, 85);
+    padding: 10px;
 }
 
 
