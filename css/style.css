@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: #1a1b18;
+    background-color: #000000;
     color:#d1d1c1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     line-height: 1.2;
@@ -11,7 +11,7 @@ body{
 }
 
 .nav-link{
-    color: aqua;
+    color: #ffffe4;
     font-size: 16px;
     /* text-decoration: none; */
 }
@@ -21,9 +21,9 @@ a.nav-link{
 }
 
 #active-link{
-    color: red;
-    background-color: darkgrey;
-    border-radius: 5px;
+    color: #ffffe4;
+    background-color: black;
+    border-radius: none;
 }
 
 #menu{
