@@ -52,13 +52,8 @@ main{
 
 
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-}
+
+
 
 ul li {
   float: left;
@@ -78,4 +73,21 @@ ul li a:hover {
 
 ul li a.active {
   background-color: #04AA6D;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+/* Add a lightgray right border to all list items, except the last */
+ul li {
+  float: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+ul li:last-child {
+  border-right: none;
 }
