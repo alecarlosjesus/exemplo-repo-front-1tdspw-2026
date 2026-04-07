@@ -11,9 +11,12 @@ body{
 }
 
 .nav-link{
-    color: aqua;
+    color: darkgrey;
     font-size: 16px;
-    /* text-decoration: none; */
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+
 }
 
 a.nav-link{
@@ -23,16 +26,15 @@ a.nav-link{
 #active-link{
     color: red;
     background-color: darkgrey;
-    border-radius: 5px;
 }
 
 #menu{
 
     list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: crimson;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: crimson;
 }
 
 #menu li{
