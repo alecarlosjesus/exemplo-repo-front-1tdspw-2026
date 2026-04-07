@@ -22,18 +22,20 @@ a.nav-link{
 }
 
 #active-link{
-    color: #333);
+    color: #333;
     background-color: ;
     border-radius: 0%;
 }
 
 #menu{
 
-    background-color: rgb(68, 62, 63);
-    border-radius: 5px;
-    list-style: none;
-    padding: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
+
 
 #menu li{
     display: inline-block;
