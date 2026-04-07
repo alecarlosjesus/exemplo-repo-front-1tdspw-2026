@@ -84,3 +84,8 @@ ul {
   top: 0;
   width: 100%;
 }
+
+ul {
+  position: sticky;
+  top: 0;
+}
