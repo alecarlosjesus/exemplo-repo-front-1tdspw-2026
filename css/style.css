@@ -21,9 +21,9 @@ a.nav-link{
 }
 
 #active-link{
-    color: #ffffe4;
-    background-color: black;
+    color: black;
     border-radius: none;
+    font-weight: 800;
 }
 
 #menu{
