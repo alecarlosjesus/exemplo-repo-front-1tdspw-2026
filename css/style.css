@@ -26,18 +26,6 @@ a.nav-link{
     border-radius: 5px;
 }
 
-#menu{
-
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    list-style: none;
-    padding: 20px;
-}
-
-#menu li{
-    display: inline-block;
-    margin: 0 20px;
-}
 
 
 
