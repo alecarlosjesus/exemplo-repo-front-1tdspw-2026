@@ -30,7 +30,7 @@ a.nav-link:hover {
 }
 
 #active-link{
-    color: red;
+    color: rgb(250, 250, 250);
     background-color: darkgrey;
     border-radius: 5px;
 }
