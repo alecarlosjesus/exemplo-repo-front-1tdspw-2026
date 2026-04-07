@@ -34,6 +34,11 @@ a.nav-link{
     background-color: #333333;
 }
 
+#menu li{
+    float: left;
+}
+
+
 
 
 
