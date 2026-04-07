@@ -45,6 +45,11 @@ a.nav-link{
     text-decoration: none;
 }
 
+ul li a:hover {
+  background-color: rgba(255, 192, 203, 0.527);
+   border-radius: 5px;
+}
+
 
 /*
     container principal
