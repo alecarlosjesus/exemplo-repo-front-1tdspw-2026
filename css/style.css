@@ -20,16 +20,21 @@ a.nav-link{
     text-decoration: none;
 }
 
+ul li a:hover {
+  background-color: #ff8432;
+  padding: 20px;
+}
+
 #active-link{
     color: #ffffe4;
     background-color: #0a21a0;
-    padding: 10px;
+    padding: 20px;
     font-weight: 700;
 }
 
 #menu{
 
-    background-color: #d75413;
+    background-color: #da4f0a;
     border-radius: 5px;
     list-style: none;
     padding: 20px;
