@@ -1,8 +1,8 @@
 
 
 body{
-    background-color: #1a1b18;
-    color:#d1d1c1;
+    background-color: #3e5f5d;
+    color:#a2ffe8;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     line-height: 1.2;
     margin: 20;
@@ -22,7 +22,7 @@ a.nav-link{
 
 #active-link{
     font-weight: 700;
-    background-color: darkgrey;
+    background-color: rgba(135, 175, 175, 0.616);
     border-radius: 5px;
 }
 
@@ -31,7 +31,7 @@ a.nav-link{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #213a37ce;
 
 }
 
