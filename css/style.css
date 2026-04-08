@@ -1,17 +1,17 @@
 
 
 body{
-    background-color: #1a1b18;
-    color:#d1d1c1;
+    background-color: #3e5f5d;
+    color:#a2ffe8;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     line-height: 1.2;
-    margin: 0;
-    padding: 20px;
+    margin: 20;
+    padding: 0;
 
 }
 
 .nav-link{
-    color: aqua;
+    color: aquamarine;
     font-size: 16px;
     /* text-decoration: none; */
 }
@@ -21,12 +21,17 @@ a.nav-link{
 }
 
 #active-link{
-    color: red;
-    background-color: darkgrey;
+    font-weight: 700;
+    background-color: rgba(135, 175, 175, 0.616);
     border-radius: 5px;
 }
 
 #menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #213a37ce;
 
     background-color: crimson;
     border-radius: 5px;
@@ -37,17 +42,24 @@ a.nav-link{
 }
 
 #menu li{
-    display: inline-block;
-    margin: 0 20px;
+    float: left;
 }
 
 #menu li a{
+    display: block;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     display: inline-block;
     background-color: yellow;
     padding: 10px;
 }
 
-
+#menu li a:hover {
+  background-color: rgba(153, 216, 195, 0.507);
+  border-radius: 5px;
+}
 
 /*
     container principal
@@ -56,4 +68,5 @@ main{
     max-width: 1000px;
     margin: 0 auto;
 }
+
 
