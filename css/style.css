@@ -2,7 +2,7 @@
 
 body{
     background-color: #1a1b18;
-    color:#d1d1c1;
+    color: PapayaWhip;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     line-height: 1.2;
     margin: 0;
@@ -10,8 +10,18 @@ body{
 
 }
 
+.cabecalho{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: Purple;
+    border-radius: 10px;
+
+}
+
 .nav-link{
-    color: aqua;
+    color: PapayaWhip;
     font-size: 16px;
     /* text-decoration: none; */
 }
@@ -21,14 +31,14 @@ a.nav-link{
 }
 
 #active-link{
-    color: red;
+    color: acqua;
     background-color: darkgrey;
     border-radius: 5px;
 }
 
 #menu{
 
-    background-color: crimson;
+    background-color: Olive;
     border-radius: 5px;
     list-style: none;
     padding: 20px;
