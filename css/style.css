@@ -42,6 +42,12 @@ a.nav-link{
     border-color: #63ecec;
 }
 
+a.nav-link:hover{
+    background-color: rgba(99, 236, 236, 0.16);
+    border-color: rgba(99, 236, 236, 0.45);
+    color: #e8ffff;
+}
+
 .cabecalho{
     margin-bottom: 20px;
 }
