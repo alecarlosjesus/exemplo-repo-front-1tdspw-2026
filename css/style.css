@@ -10,9 +10,15 @@ body{
 
 }
 
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    /* text-decoration: none; */
+}
+
 .nav-link{
-    color: aqua;
-    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
     /* text-decoration: none; */
 }
 
@@ -21,9 +27,9 @@ a.nav-link{
 }
 
 #active-link{
-    color: red;
-    background-color: darkgrey;
-    border-radius: 5px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
 }
 
 #menu{
