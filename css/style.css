@@ -29,11 +29,11 @@ a.nav-link{
 
 #menu{
 
-     list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333333;
 }
 
 
@@ -41,7 +41,7 @@ a.nav-link{
      float: left;
 }
 
-#menu {
+#menu li a {
   display: block;
   color: white;
   text-align: center;
