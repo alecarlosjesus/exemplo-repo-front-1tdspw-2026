@@ -73,6 +73,11 @@ nav{
     margin: 0 20px;
 }
 
+#menu li a{
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px;
+}
 
 
 
