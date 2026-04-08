@@ -20,6 +20,7 @@ h1.nav-link{
     text-align: center;
     font-size: 40px;
     color: white;
+    margin: 0 0 8px;
 }
 
 a.nav-link{
@@ -54,6 +55,7 @@ a.nav-link:hover{
 
 nav{
     text-align: center;
+    margin-top: 0;
 }
 
 #menu{
