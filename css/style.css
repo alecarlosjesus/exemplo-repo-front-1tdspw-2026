@@ -43,6 +43,8 @@ main{
 
 
 
+
+
 ul li {
   float: left;
 }
@@ -56,7 +58,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #8f8f8f;
 }
 
 ul li a.active {
