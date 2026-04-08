@@ -1,42 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página Principal</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página Principal</title>
 
-	<header>
-		<h1>HOME</h1>
-		<nav>
-			<ul>
-				<li> <a href="./paginas/futebol/futebol.html"> Futebol </a>  </li>
-				<li> <a href="./paginas/volley/volley.html"> Volley </a> </li>
-				<li> <a href="./paginas/basquete/basquete.html">  Basquete </a> </li>
-			</ul>
-		</nav>
-	</header>
+  <!-- Favicon -->
+  <link rel="icon" href="./img/favicon.png">
 
-	<main>
-		<section>
-			<h2>Futebol</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, doloremque numquam beatae iure commodi ad nesciunt quas alias? Aperiam quibusdam hic tenetur accusamus nihil expedita vel quaerat illum laborum asperiores dolores consequuntur, modi at eaque reprehenderit odit natus, nemo ab quia saepe explicabo rem error eveniet ullam. Consequatur, assumenda corporis?</p>
-			<a href="./paginas/futebol/futebol.html">mais...</a>
-		</section>
-		<section>
-			<h2>Volley</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, doloremque numquam beatae iure commodi ad nesciunt quas alias? Aperiam quibusdam hic tenetur accusamus nihil expedita vel quaerat illum laborum asperiores dolores consequuntur, modi at eaque reprehenderit odit natus, nemo ab quia saepe explicabo rem error eveniet ullam. Consequatur, assumenda corporis?</p>
-			<a href="./paginas/volley/volley.html">mais...</a>
-		</section>
-		<section>
-			<h2>Basquete</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, doloremque numquam beatae iure commodi ad nesciunt quas alias? Aperiam quibusdam hic tenetur accusamus nihil expedita vel quaerat illum laborum asperiores dolores consequuntur, modi at eaque reprehenderit odit natus, nemo ab quia saepe explicabo rem error eveniet ullam. Consequatur, assumenda corporis?</p>
-			<a href="./paginas/basquete/basquete.html">mais...</a>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; Minha Página - 2026</p>
-	</footer>
-  </body>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header class="Cabecalho">
+    <h1 class="nav-link">HOME</h1>
+    <nav>
+      <ul id="menu">
+        <li><a id="active-link" class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="./paginas/basquete/basquete.html">Basquete</a></li>
+        <li><a class="nav-link" href="./paginas/futebol/futebol.html">Futebol</a></li>
+        <li><a class="nav-link" href="./paginas/volley/volley.html">Volley</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Futebol</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <a href="./paginas/futebol/futebol.html">mais...</a>
+    </section>
+
+    <section>
+      <h2>Volley</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <a href="./paginas/volley/volley.html">mais...</a>
+    </section>
+
+    <section>
+      <h2>Basquete</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <a href="./paginas/basquete/basquete.html">mais...</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Minha Página - 2026</p>
+  </footer>
+
+</body>
 </html>
