@@ -36,6 +36,7 @@ ul li a:hover {
 
     background-color: #da4f0a;
     border-radius: 5px;
+    display: block;
     list-style: none;
     padding: 20px;
     font-weight: 400;
