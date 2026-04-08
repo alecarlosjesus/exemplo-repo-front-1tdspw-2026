@@ -21,9 +21,9 @@ a.nav-link{
 }
 
 #active-link{
-    color: red;
+    font-weight: 700;
     background-color: darkgrey;
-    border-radius: 0px;
+    border-radius: 5px;
 }
 
 #menu{
@@ -32,19 +32,19 @@ a.nav-link{
     padding: 0;
     overflow: hidden;
     background-color: #333333;
-    border-radius: 5px;
-    list-style: none;
-    padding: 14px 16px;
+
 }
 
 #menu li{
-    display: inline-block;
-    margin: 0 20px;
+    float: left;
 }
 
 #menu li a{
-    display: inline-block;
-    background-color: gray;
+    display: block;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 
