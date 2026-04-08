@@ -30,13 +30,9 @@ a.nav-link{
 #menu {
 
     list-style-type: none;
-
     margin: 0;
-
     padding: 0;
-
     overflow: hidden;
-
     background-color: #333333;
 
 }
@@ -44,27 +40,37 @@ a.nav-link{
 #menu li {
 
     float: left;
-
+    background-color: crimson;
+    border-radius: 5px;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #menu li a {
-
+  
     display: block;
-
     color: white;
-
     text-align: center;
-
     padding: 14px 16px;
 
     text-decoration: none;
 
 }
 
+ 
 #menu li a:hover {
+background-color: #111111
+}
 
-    background-color: #111111;
-
+#menu li a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
  
 
