@@ -10,6 +10,16 @@ body{
 
 }
 
+.cabecalho{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: MidnightBlue;
+    border-radius: 10px;
+
+}
+
 .nav-link{
     color: aqua;
     font-size: 16px;
@@ -21,14 +31,14 @@ a.nav-link{
 }
 
 #active-link{
-    color: red;
+    color: acqua;
     background-color: darkgrey;
     border-radius: 5px;
 }
 
 #menu{
 
-    background-color: crimson;
+    background-color: Olive;
     border-radius: 5px;
     list-style: none;
     padding: 20px;
