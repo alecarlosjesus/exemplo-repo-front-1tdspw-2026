@@ -30,6 +30,10 @@ a.nav-link{
     overflow: hidden;
     background-color: hotpink;
     border-radius: 5px;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #menu li{
@@ -42,6 +46,9 @@ a.nav-link{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px;
 }
 
 #menu li a:hover {
