@@ -47,8 +47,8 @@ a.nav-link{
     text-decoration: none;
 }
 
-menu li a:hover {
-  background-color: rgb(153, 216, 195);
+#menu li a:hover {
+  background-color: rgba(153, 216, 195, 0.507);
   border-radius: 5px;
 }
 
