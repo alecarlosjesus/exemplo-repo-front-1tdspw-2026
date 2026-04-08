@@ -38,12 +38,12 @@ a.nav-link:hover {
 
 #menu{
 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #f7ba75;
-    border-radius: 10px;
+    background-color: crimson;
+    border-radius: 5px;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #menu li{
@@ -51,6 +51,11 @@ a.nav-link:hover {
     margin: 0 20px;
 }
 
+#menu li a{
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px;
+}
 
 
 
