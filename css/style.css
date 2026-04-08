@@ -49,6 +49,11 @@ ul li a:hover {
     margin: 0 10px;
 }
 
+#menu li a{
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px;
+}
 
 
 
