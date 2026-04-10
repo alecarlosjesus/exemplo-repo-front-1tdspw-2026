@@ -4,15 +4,15 @@ body{
     background-color: #1a1b18;
     color:#d1d1c1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    line-height: 1.2;
-    margin: 0;
+    line-height: 1.5;
+    margin: 40;
     padding: 20px;
 
 }
 
 .nav-link{
-    color: aqua;
-    font-size: 16px;
+    color: black;
+    font-size: 18px;
     /* text-decoration: none; */
 }
 
@@ -21,17 +21,17 @@ a.nav-link{
 }
 
 #active-link{
-    color: red;
-    background-color: darkgrey;
-    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
 }
 
 #menu{
 
-    background-color: crimson;
+    background-color: rgb(255, 0, 0);
     border-radius: 5px;
     list-style: none;
-    padding: 20px;
+    padding: 30px;
 }
 
 #menu li{
